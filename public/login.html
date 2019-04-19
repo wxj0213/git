@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>登陆</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/login.css" />
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="login">
+        <div class="login-title">会员登录</div>
+        <div class="login-body">
+            <div class="login-inline">
+                <input type="tel" placeholder="手机号" id="UserPhone">
+            </div>
+            <div class="login-inline">
+                <input type="password" placeholder="密码" id="UserPwd">
+            </div>
+            <div class="login-inline">
+                <button id="btnLogin">登陆</buton>
+            </div>
+            <div class="login-inline text-center">
+                <div>请登录您的铂爵旅拍VIP会员号,下载您的婚纱照。</div>
+            </div>
+            <div class="login-inline text-center mt-3">找回密码</div>
+        </div>
+    </div>
+    <script src="js/jquery-3.2.1.js"></script>
+    <!-- <script src="js/login.js"></script> -->
+    <script>
+        $(function () {
+            $("#btnLogin").click(function () {
+                // 获取用户输入的值
+                var uphone = $("#UserPhone").val();
+                var upwd = $("#UserPwd").val();
+                $.ajax({
+                    url:"http:127.0.0.1:3000/index/login",
+                    type:"get",
+                    data:{phone:uphone,pwd:upwd},
+                    dataType:"json",
+                    success:function(result){
+                        alert(result.msg);
+                        location.href="http:127.0.0.1:3000/index.html";
+                    }
+                })
+            })
+        })
+    </script>
+</body>
+
+</html>

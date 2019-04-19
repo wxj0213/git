@@ -1,0 +1,52 @@
+.video-title a:hover{
+    text-decoration: none;
+}
+.video-title a{
+    color: #000;
+}
+.video-title{
+    margin-top: 150px;
+    font-size: 14px;
+    letter-spacing:3px;
+}
+.movie_list{
+    position: relative;
+    overflow: hidden;
+}
+.movie_list_bgicon{
+    position: absolute;
+    top:45%;
+    left:45%;
+    width: 64px;
+    height:64px;
+    background-image: url(http://127.0.0.1:3000/image/video/movie_anniu.png);
+    background-size: 64px,64px;
+}
+.movie_bag{
+    background-color: #000;
+    padding-top: 2.6%;
+    padding-bottom: 140px; 
+}
+.movie_words{
+    background-color:#1b1b1b;
+    width: 102%;
+    height: 50px;
+    color: #fff;
+    padding: 8px;
+    font-size: 20px;
+    opacity: 0.6;
+    position: absolute;
+    bottom: -50px;
+    margin: 0 auto;
+    transition: all 1s;
+}
+a:hover{
+    text-decoration: none;
+}
+.movie_words span{
+    display: block;
+    margin-left: 50%;
+}
+.movie_list:hover .movie_words{
+    bottom: 0px;
+}

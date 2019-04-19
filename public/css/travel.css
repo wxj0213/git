@@ -1,0 +1,175 @@
+.sidebar-title{
+    width: 100%;
+    padding: 41% 0;
+    background-color: #252525;
+}
+.table_list{
+    background-color: #4C4C4C;
+}
+.table_list a{
+    color: #fff;
+}
+.table_list a:hover{
+    text-decoration: none;
+}
+.table_list a li{
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+.table_list a li:hover{
+  background-color: #000;
+}
+.city-list a:hover{
+    text-decoration: none;
+    color: #000;
+}
+.city-list a{
+   display: inline-block;
+   color: #000;
+   border: 1px solid #000;
+   width: 15%;
+   height: 60px;
+   font-size: 1.7rem;
+   letter-spacing: 20px;
+   line-height: 50px;
+   margin-left: 50px;
+   margin-top: 7%;
+}
+.mycar{
+    position: relative;
+}
+.play{
+    position: absolute;
+    top:48%;
+    left:48%;
+    width: 64px;
+    height:64px;
+    background-image: url(http://127.0.0.1:3000/image/travel/movie_button.png);
+    background-size: 64px,64px;
+}
+.left img{
+    width: 20px;
+    height: 20px;
+    top:40%;
+    left:40%;
+    position: absolute;
+    
+}
+.left{
+    top:85%;
+    left:25%;
+    position: absolute;
+    width: 78px;
+    z-index: 10;
+    height: 78px;
+    background: #4C4C4C;
+}
+.cont{
+    width: 75%;
+    margin-left:28%;
+    margin-right:11.5%;
+}
+.right img{
+    width: 20px;
+    height: 20px;
+    top:40%;
+    left:40%;
+    position: absolute;
+    
+}
+.right{
+    top:85%;
+    left:70%;
+    position: absolute;
+    width: 78px;
+    z-index: 10;
+    height: 78px;
+    background: #4C4C4C;
+}
+.word{
+    width:45%;
+    z-index: 10;
+    height: 78px;
+    background: #222222;
+    position: absolute;
+    top:85%;
+    left:29%;
+    color: #fff;
+    font-size: 2.3rem;
+    line-height: 70px;
+}
+.return .back-top{
+    background: #000;
+    color: #fff !important;
+    display: block;
+    line-height: 50px;
+    text-align: center;
+    text-decoration: none;
+    width: 85%;
+    height: 50px;
+    
+}
+.return{
+    margin-left: 27.5%;width: 85%;
+}
+@media (max-width: 575px){
+    #mycar{
+        display: none;
+    }
+    .city-list a{
+        font-size: 1rem;
+        letter-spacing: 10px;
+        margin-left: 30px;
+    }
+}
+@media (min-width: 576px){
+    #mycar{
+        display: none;
+    }
+    .city-list a{
+        font-size: 1rem;
+        letter-spacing: 10px;
+        margin-left: 30px;
+    }
+}
+@media (min-width: 768px){
+    #mycar{
+        display: block;
+    }
+    .city-list a{
+        font-size: 1.3rem;
+        letter-spacing: 15px;
+        margin-left: 45px;
+    }
+}
+@media (min-width:992px){
+    #mycar{
+        display: block;
+    }
+    .city-list a{
+        font-size: 1.7rem;
+        letter-spacing: 20px;
+        margin-left: 50px;
+    }
+}
+@media ( min-width:1200px){
+    #mycar{
+        display: block;
+    }
+    .city-list a{
+        font-size: 1.7rem;
+        letter-spacing: 20px;
+        margin-left: 50px;
+    }
+}
+.visi{
+    opacity: 0;
+    transition: all 3s;
+    
+}
+.xs{
+    opacity: 1;
+    margin-top:30px;
+}
+

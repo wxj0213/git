@@ -1,0 +1,280 @@
+html,body{
+    width:100%;
+    height: 100%;
+}
+.mouse{bottom: 30%;
+    left: 50%;
+    width: 60px;height: 60px;
+    margin-left: -25px;
+    }
+.scroll{ text-decoration: none !important;
+           color: white;
+           font-size: 20px;
+}
+.scroll:hover{color:white;}
+.logo1{bottom:56%;
+     left:45%;
+    margin-left:-125px;
+}
+.logo2{
+    bottom:50%;
+    left: 40%;
+    margin-left: -145px;
+}
+.index_all{
+    width:100%;
+    height: 100%;
+}
+.video1{font-size: 1.6rem;
+    object-fit: fill;
+}
+.str{
+    height:25px;
+}
+.dhl{background-color: black;}
+.container-fluid{padding: 0;}
+.logo{height:35px;
+    left: 50px;
+    font-size: 1.25rem;
+}
+#content{
+    font-size: 8px;
+    left: 100px;
+}
+.carousel-indicators li{
+    width: 5px;
+    height: 5px;
+    background: #fff;
+    border-radius:50%;
+}
+.carousel-indicators .active{
+    background: #0aa1ed;
+}
+.carousel-control-prev,.carousel-control-next{
+    width: 3%;
+    height:16%;
+    top: 42%;
+}
+
+.city{
+    margin: auto;
+    margin-top: 90px;
+    width: 300px;
+
+}
+.dropdown-menu{
+    background-color: black;
+    font-size: 0 !important;
+    min-width: 5rem !important;
+}
+.dropdown-menu a{
+ text-decoration: none;
+    color:white ;
+    font-size: 8px;
+}
+.city li{
+    border: 2px solid black;
+    display: inline-block;
+    width: 105px;
+    height: 40px;
+    margin: 0 7px 19px ;
+    font-size: 15px;
+    line-height:32px;
+    color:#000;
+}
+.city li a{color: inherit;
+text-decoration: none;
+}
+.city li:hover{
+    background-color: #000;
+    color:#fff
+}
+.card{
+    width: 500px;
+    margin-left: 100px;
+    margin-top: 60px;
+    color: #000;
+}
+.card p{
+    color:#000;
+}
+a:hover{
+    text-decoration: none;
+    color: #000;
+}
+.clicklook{
+    display:block;
+    border:1px solid #000;
+    width: 100px;
+    height: 35px;
+    line-height: 30px;
+    color: #000;
+    margin-left: 40%;
+}
+.carousel-item{
+    transition: transform 0.1s ease, -webkit-transform 0.1s ease;
+}
+.clicklook:hover{
+    background-color: #000;
+    color: #fff;
+}
+.mocha p{
+    color:#000;
+}
+.tu{width: 900px;
+margin-top: 100px;
+}
+.tu span{font-size: 12px;
+display: block;}
+.tu p{font-size: 25px;}
+.look{top:-40px;
+left:75%}
+.bojue1:hover{
+    text-decoration: none;
+}
+.bojue1{
+    font-size: 20px;
+    color: #000;
+}
+.jishu{
+    left:30px;
+}
+.news{font-size: 17px;
+color:#000;}
+.news2{
+    font-size: 15px;
+    color: #505050;
+
+}
+.time{
+    font-size: 25px;
+    color: #A69999;
+}
+.line:hover{
+    text-decoration: none;
+}
+.black{border:1px solid black;
+width: 500px;height: 70px;
+    background-color: black;
+    line-height: 68px;
+    display: inline-block;
+    padding-left: 40px;
+}
+.gray{border:1px solid #383838;
+    width: 500px;height: 70px;
+    background-color: #383838;
+    line-height: 68px;
+    display: inline-block;
+    padding-left: 40px;
+}
+.black a{
+    color:white;
+    text-decoration: none;
+    width: 100%;
+    height:100%
+}
+.gray a{
+    color:white;
+    text-decoration: none;
+    width: 100%;
+    height:100%;
+    left:50px;
+}
+.movie_list{
+    position: relative;
+    overflow: hidden;
+}
+.movie_list_bgicon{
+    position: absolute;
+    top:45%;
+    left:45%;
+    width: 64px;
+    height:64px;
+    background-image: url(http://127.0.0.1:3000/image/video/movie_anniu.png);
+    background-size: 64px,64px;
+}
+.carousel-control-prev img{
+    width: 70px;
+    height: 70px;
+    margin-bottom: 50px;
+}
+.carousel-control-next img{
+    width: 70px;
+    height: 70px;
+    margin-bottom: 70px;
+}
+.movie_words{
+    background-color:#1b1b1b;
+    width: 102%;
+    height: 50px;
+    color: #fff;
+    padding: 8px;
+    font-size: 20px;
+    opacity: 0.6;
+    position: absolute;
+    bottom: -50px;
+    margin: 0 auto;
+    transition: all 1s;
+}
+
+#footer-container{
+    margin-top: 30px;
+}
+@media (max-width: 575px){
+    .city{
+        width: 400px;
+    }
+    .carousel-control-prev{
+        left:6rem;
+    }
+    .carousel-control-next{
+        right:6rem;
+    }
+}
+@media (min-width: 576px){
+    .city{
+        width: 400px;
+    }
+    .carousel-control-prev{
+        left:7rem;
+    }
+    .carousel-control-next{
+        right:7rem;
+    }
+}
+@media (min-width: 768px){
+    .city{
+        width: 600px;
+    }
+    .carousel-control-prev{
+        left:8rem;
+    }
+    .carousel-control-next{
+        right:8rem;
+    }
+}
+@media (min-width:992px){
+    .city{
+        width: 600px;
+    }
+    .carousel-control-prev{
+        left:10rem;
+    }
+    .carousel-control-next{
+        right:10rem;
+    }
+}
+@media ( min-width:1200px){
+    .city{
+        width: 1200px;
+    }
+    .carousel-control-prev{
+        left:10rem;
+    }
+    .carousel-control-next{
+        right:10rem;
+    }
+}
+
+
+

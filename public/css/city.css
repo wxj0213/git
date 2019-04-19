@@ -1,0 +1,77 @@
+.city{
+    margin: auto;
+   margin-top: 50px;
+    width: 300px;
+}
+.city li{
+    border: 2px solid black;
+    display: inline-block;
+    width: 105px;
+    height: 40px;
+    margin: 0 7px 19px ;
+    font-size: 15px;
+    line-height:32px;
+    color:#000;
+}
+.city li a{color: inherit;
+    text-decoration: none;
+}
+.city li:hover{
+    background-color: #000;
+    color:#fff
+}
+.city-title a:hover{
+    text-decoration: none;
+}
+.city-title a{
+    color: #000;
+}
+.city-title{
+    margin-top: 150px;
+    margin-left: 367px;
+}
+.return .back-top{
+    width: 100px;
+    height:30px;
+    border:1px solid #000;
+    background: #000;
+    color: #fff !important;
+    display: inline-block;
+    line-height: 30px;
+    text-align: center;
+    text-decoration: none;
+}
+.return{
+    margin-left:45%;
+    left:-125px;
+}
+
+@media (max-width: 575px){
+    .city{
+        width: 400px;
+    }
+    .banner img{
+        width: 100%;
+        height: auto;
+    }
+}
+@media (min-width: 576px){
+    .city{
+        width: 400px;
+    }
+}
+@media (min-width: 768px){
+    .city{
+        width: 600px;
+    }
+}
+@media (min-width:992px){
+    .city{
+        width: 600px;
+    }
+}
+@media ( min-width:1200px){
+    .city{
+        width: 1200px;
+    }
+}

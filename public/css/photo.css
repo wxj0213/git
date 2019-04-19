@@ -1,0 +1,38 @@
+.city-title a:hover{
+    text-decoration: none;
+}
+.city-title a{
+    color: #000;
+}
+.city-title{
+    margin-top: 100px;
+    margin-left: 367px;
+}
+.photo{
+    margin-left: 16%;
+}
+.photo img{
+    width: 100%;
+    height: auto;
+}
+.mouth-top{
+    position: fixed;
+    top:10%;
+     z-index: 10; 
+    left: 70%;
+}
+.mouth-top .mouth{
+    display: block;
+    width: 200px;
+    height: 50px;
+    border: 1px solid #000;
+    color: #000;
+    text-decoration: none;
+    line-height: 40px;
+    text-align: center;
+    margin: 10px 0;
+}
+.mouth-top .hover{
+    background: #000 !important;
+    color: #fff !important;
+}
